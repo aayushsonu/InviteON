@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im8"
+    tools:context=".Contact">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-black"
+        android:text="CONTACTS"
+
+        android:textColor="@color/gold"
+        android:textSize="50dp" />
+
+    <GridLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+
+
+        android:columnCount="3"
+        android:rowCount="3">
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="PRIYANSHU"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="ANKIT"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="ABHIJEET"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="PRADEEP"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9162732558"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="AJEET"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="AAYUSH"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="SONU"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number7"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="GAUTAM"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number8"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9546262030"
+            android:textColor="@color/gold"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/ik8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:src="@drawable/ic_baseline_call_24" />
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

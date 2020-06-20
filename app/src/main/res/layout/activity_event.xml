@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event"
+    android:background="@drawable/im8">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m1"
+        android:textSize="30sp"
+        android:text="EVENT"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/h"/>
+    <TextView
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Happy Haldi and Matkor"
+        android:textColor="@color/gold11"
+        android:textSize="25sp"
+        android:layout_marginVertical="5dp"
+        android:layout_below="@id/m1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="12-7-2021 at 11 AM Onwards"
+        android:textColor="@color/gold11"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@id/m2" />
+
+    <ImageView
+        android:id="@+id/scheduler1"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/m3"
+        android:layout_marginVertical="10dp"
+        android:onClick="Goto1"
+        android:src="@drawable/alarm1"
+         />
+    <ImageView
+        android:id="@+id/map1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_baseline_map_24"
+       android:layout_below="@id/m3"
+        android:layout_marginLeft="180dp"
+
+        android:layout_marginVertical="10dp"
+         />
+
+
+    <TextView
+        android:id="@+id/m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Wedding"
+        android:textColor="@color/gold11"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        />
+    <TextView
+        android:id="@+id/m5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="14-7-2021 at 6 PM Onwards"
+        android:textColor="@color/gold11"
+        android:textSize="24sp"
+        android:layout_below="@id/m4"
+        android:layout_centerHorizontal="true"
+         />
+    <ImageView
+        android:id="@+id/map2"
+        android:layout_width="73dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_baseline_map_24"
+      android:layout_marginVertical="10dp"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/m5"
+         />
+
+    <ImageView
+        android:id="@+id/scheduler2"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+       android:layout_below="@id/m5"
+        android:layout_marginRight="250dp"
+        android:onClick="Goto2"
+android:layout_marginVertical="10dp"
+        android:src="@drawable/alarm1"
+         />
+    <TextView
+        android:id="@+id/m6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Feast"
+        android:textColor="@color/gold11"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+         />
+    <TextView
+        android:id="@+id/m7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="16-7-2021 at 7 PM Onwards"
+        android:textColor="@color/gold11"
+        android:textSize="25sp"
+       android:layout_below="@id/m6"
+        android:layout_centerHorizontal="true"
+      />
+    <ImageView
+        android:id="@+id/map3"
+        android:layout_width="73dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_baseline_map_24"
+        android:layout_below="@id/m7"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="250dp"
+        />
+
+    <ImageView
+        android:id="@+id/scheduler3"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/m7"
+        android:layout_marginVertical="10dp"
+        android:layout_marginRight="250dp"
+        android:onClick="Goto3"
+
+        android:src="@drawable/alarm1"
+        />
+
+</RelativeLayout>
+

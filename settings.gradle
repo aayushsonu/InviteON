@@ -1,0 +1,2 @@
+rootProject.name='InviteON'
+include ':app'
